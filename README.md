@@ -1,18 +1,18 @@
 # CNN-based-Self-Driving-Cars
 Report on CNN-based Self-Driving Cars
-Introduction
+# Introduction
 Self-driving cars, also known as autonomous vehicles (AVs), leverage various technologies to navigate and operate without human intervention. Among these technologies, Convolutional Neural Networks (CNNs) play a critical role in enabling the vision-based perception systems of these vehicles. This report provides a comprehensive overview of CNN-based self-driving cars, detailing their architecture, functioning, and current advancements.
 
-Convolutional Neural Networks (CNNs)
+# Convolutional Neural Networks (CNNs)
 CNNs are a class of deep learning algorithms primarily used for image and video recognition. They consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers. The key components of a CNN include:
 
-Convolutional Layers: These layers apply a series of filters to the input image, extracting features such as edges, textures, and patterns.
-Pooling Layers: These layers reduce the dimensionality of the feature maps, preserving the most important information while reducing computational complexity.
+# Convolutional Layers: These layers apply a series of filters to the input image, extracting features such as edges, textures, and patterns.
+# Pooling Layers: These layers reduce the dimensionality of the feature maps, preserving the most important information while reducing computational complexity.
 Fully Connected Layers: These layers connect every neuron in one layer to every neuron in another layer, integrating the extracted features to make final predictions.
 Application in Self-Driving Cars
 In self-driving cars, CNNs are primarily used for image processing tasks such as object detection, lane detection, and traffic sign recognition. The steps involved in using CNNs for self-driving car applications include:
 
-Data Collection: Large datasets of labeled images and videos are collected from cameras mounted on vehicles. These datasets include various driving conditions, road types, and traffic scenarios.
+# Data Collection: Large datasets of labeled images and videos are collected from cameras mounted on vehicles. These datasets include various driving conditions, road types, and traffic scenarios.
 Preprocessing: The collected data is preprocessed to enhance quality and normalize the inputs. Common preprocessing steps include resizing images, color normalization, and data augmentation.
 Model Training: The preprocessed data is used to train the CNN model. During training, the model learns to recognize and classify different objects and patterns in the images.
 Model Inference: Once trained, the CNN model is deployed on the vehicle. It processes real-time camera feeds, identifying and classifying objects, lanes, and traffic signs.
