@@ -61,6 +61,3 @@ Future research is focused on addressing these challenges through techniques suc
 
 CNN-based self-driving cars represent a significant advancement in autonomous vehicle technology, offering the potential for safer and more efficient transportation. Despite the challenges, ongoing research and development continue to enhance the capabilities and reliability of these systems, bringing us closer to a future with fully autonomous vehicles.
 
----
-
-This report aims to provide a detailed understanding of CNN-based self-driving cars, covering the essential components, architectures, and challenges in this rapidly evolving field.s
